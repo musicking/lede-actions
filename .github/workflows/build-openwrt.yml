@@ -19,8 +19,9 @@ on:
       - main
     paths:
       - '.config'
-  schedule:
-    - cron: 0 8 * * 5
+  # 关闭定时执行By King. 2020年10月18日
+  #schedule:
+  #  - cron: 0 8 * * 5
   watch:
     types: started
 
